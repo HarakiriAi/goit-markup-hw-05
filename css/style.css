@@ -749,18 +749,26 @@ img{
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
+
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus{
+    border-color: #4D5AE5;
 }
 
 .modal-textarea{
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
 
     resize: none;
     padding: 8px 16px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea::placeholder{
@@ -774,7 +782,7 @@ img{
     color: rgba(46, 47, 66, 0.4);
 }
 
-.modal-label-div > .icon{
+.modal-input-div > .icon{
     position: absolute;
     top: 50%;
     left: 16px;
@@ -790,4 +798,8 @@ img{
 
 .modal-textarea:focus{
     border-color: #4D5AE5;
+}
+
+.checkbox-area{
+    margin-bottom: 24px;
 }
