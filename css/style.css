@@ -648,7 +648,7 @@ img{
 }
 
 .modal-window{
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -710,9 +710,11 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
 
     color: #2E2F42;
-    transform: translateY(-130%);
+    transform: translateY(-100%);
 }
 
 .modal-form{
@@ -763,6 +765,7 @@ img{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    margin-bottom: 16px;
 
     resize: none;
     padding: 8px 16px;
@@ -795,6 +798,8 @@ img{
 }
 
 .checkbox-area{
+    display: flex;
+    gap: 8px;
     margin-bottom: 24px;
 }
 
