@@ -728,6 +728,10 @@ img{
     margin-bottom: 8px;
 }
 
+.modal-textarea-div{
+    margin-bottom: 16px;
+}
+
 .modal-label{
     display: block;
     font-size: 12px;
@@ -880,9 +884,5 @@ img{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-}
-
-.modal-label-div #textarea-div{
-    margin-bottom: 16px;
 }
 
