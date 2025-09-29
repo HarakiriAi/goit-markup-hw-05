@@ -704,7 +704,6 @@ img{
 }
 
 .modal-content-paragraph{
-    display: block;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -715,7 +714,6 @@ img{
     margin-bottom: 16px;
 
     color: #2E2F42;
-    transform: translateY(-100%);
 }
 
 .modal-form{
@@ -724,9 +722,6 @@ img{
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-
-    width: 360px;
-    max-height: 336px;
 }
 
 .modal-label-div{
@@ -879,7 +874,7 @@ img{
     fill: transparent; 
 }
 
-.checkbox-area > .checkbox:checked{
+.checkbox-checked:checked{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
