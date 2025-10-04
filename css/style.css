@@ -755,6 +755,10 @@ img{
     border-color: #4D5AE5;
 }
 
+.modal-label-div{
+    margin-bottom: 8px;
+}
+
 .modal-textarea-div{
     margin-bottom: 16px;
 }
