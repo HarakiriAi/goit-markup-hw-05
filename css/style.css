@@ -724,14 +724,6 @@ img{
     gap: 8px;
 }
 
-.modal-label-div{
-    margin-bottom: 8px;
-}
-
-.modal-textarea-div{
-    margin-bottom: 16px;
-}
-
 .modal-label{
     display: block;
     font-size: 12px;
